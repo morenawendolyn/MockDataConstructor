@@ -1,0 +1,23 @@
+
+---
+
+### **2. 32_EndpointPulseLogger**  
+**Description:**  
+Logs response status and latency for one or more HTTP endpoints.
+
+#### **README.md**
+```markdown
+# EndpointPulseLogger - API Status and Speed Monitor
+
+EndpointPulseLogger is a CLI tool that pings APIs and logs the response time and result for monitoring and diagnostics.
+
+## Features
+- Track multiple endpoints  
+- Supports timeout flags  
+- Terminal and file output  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_EndpointPulseLogger.git
+cd 32_EndpointPulseLogger
+python monitor.py
