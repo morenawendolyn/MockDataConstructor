@@ -1,0 +1,23 @@
+
+---
+
+### **3. 32_LogSpikeAnalyzer**  
+**Description:**  
+Scans log files for error spikes, repeated phrases, and potential anomalies.
+
+#### **README.md**
+```markdown
+# LogSpikeAnalyzer - Error Pattern Detection for Logs
+
+LogSpikeAnalyzer helps detect bursts of repeated errors, warnings, or suspicious entries in logs.
+
+## Features
+- Frequency-based grouping  
+- Supports large log files  
+- Simple interface  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_LogSpikeAnalyzer.git
+cd 32_LogSpikeAnalyzer
+python analyze.py /var/log/myapp.log
